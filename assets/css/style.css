@@ -16,6 +16,9 @@ h3 {font-size: 150%;}
 
 /* Headers */
 .mainheader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   padding: 20px;
   background-color: #19335D;
   color: #ffffff;
