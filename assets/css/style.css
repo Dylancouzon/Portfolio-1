@@ -8,11 +8,12 @@ body{
   background-size: 100vw 100vh;
 }
 
-/* Headers style */
+/* Headers */
 header {
   padding: 20px;
   background-color: #19335D;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 header img{
@@ -37,4 +38,18 @@ header a {
   color: #ffffff;
   text-decoration: none;
 }
-/* End of Headers style */
+/* /headers */
+
+/* AboutMe */
+
+.AboutMe{
+width: 500px;
+margin: auto;
+color: #ffffff;
+}
+
+.AboutMe img {
+  float: right;
+  margin-left: 40px;
+  height: 200px;
+}
