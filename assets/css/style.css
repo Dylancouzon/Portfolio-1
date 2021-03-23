@@ -46,7 +46,7 @@ h3 {font-size: 150%;}
   margin-left: 25px;
 }
 
-.mainheader a {
+a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -91,7 +91,7 @@ margin-bottom: 30px;
 
 .vl {
   border-left: 6px solid black;
-  height: 500px;
+  height: 600px;
   position: absolute;
   margin-left: -20px;
 
@@ -103,11 +103,65 @@ margin-bottom: 30px;
    position: relative;
 }
 
-.caption{
+.Mainproject .caption{
   background-color: black;
   position: absolute;
   margin-top: -70px;
   margin-left: 10px;
   padding: 5px;
   border-radius: 10px;
+}
+
+.smallproject{
+  position: absolute;
+}
+
+.smallproject img{
+  border: 4px solid #2a607c;
+  width: 250px;
+  height: 150px;
+  border-radius: 30px;
+}
+
+.smallcaption{
+  background-color: black;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* /projects */
+
+/* Contact */
+.contact{
+  position: relative;
+  width: 500px;
+  margin: auto;
+  margin-top: 340px;
+  color: #ffffff;
+  
+}
+
+.contactheaders{
+  position: absolute;
+}
+
+.contact header{
+  position: absolute;
+  margin-left: -160px;
+}
+
+.vl2 {
+  border-left: 6px solid black;
+  height: 100px;
+  position: absolute;
+  margin-left: -20px;
+
+}
+
+.contact ul li {
+  display: inline-block;
+  margin-left: 25px;
 }

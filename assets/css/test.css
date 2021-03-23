@@ -1,0 +1,18 @@
+
+
+.smallprojects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row
+}
+
+.smallproject {
+  flex: 1 0 200px;
+  padding: 10px;
+}
+
+.smallproject img{
+  border: 4px solid #2a607c;
+  border-radius: 30px;
+  position: relative;
+}
