@@ -163,5 +163,10 @@ margin-bottom: 30px;
 
 .contact ul li {
   display: inline-block;
-  margin-left: 25px;
+ margin-bottom: 10px;
+}
+
+.links{
+  font-size:150%;
+  padding-top: 20px;
 }
