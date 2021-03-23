@@ -20,12 +20,9 @@ h3 {font-size: 150%;}
   flex-wrap: wrap;
   flex-direction: column;
   padding: 20px;
+  width: 100%;
   background-color: #19335D;
   color: #ffffff;
-  position: fixed;
-  width: 100%;
-  margin-top: -80px;
-  z-index: 1;
 }
 
 .mainheader img{
@@ -54,21 +51,31 @@ a {
 
 /* AboutMe */
 .AboutMe{
-display: flex;
-min-width: 300px;
-max-width: 800px;
-margin: auto;
-color: #ffffff;
-margin-top: 80px;
-margin-bottom: 30px;
+  font-family: 'Roboto Slab', 'Montserrat', Calibri;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: flex;
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top : 20px;
+  font-weight: bold;
 }
 
 .description{
   flex: 1 0 0;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
   flex-wrap: wrap;
 }
+
+.description p{
+  font-size: 120%;
+  
+}
+
 .AboutMe img {
   float: right;
   margin-left: 40px;
@@ -140,6 +147,23 @@ margin-bottom: 30px;
   border-radius: 10px;
 }
 
+.hidden{
+  display: none;
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .hidden{
+    display: block;
+  }
+  .projects h1, .projects .vl, .contact h1, .contact .vl2{
+    display: none;
+  }
+}
 /* /projects */
 
 /* Contact */
@@ -177,4 +201,20 @@ margin-bottom: 30px;
 .links{
   font-size:150%;
   padding-top: 20px;
+  padding-left: 40px;
 }
+
+/* /Contact */
+/* Footer */
+footer{
+  position: absolute;
+  margin-top: 170px;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+/* /Footer */
