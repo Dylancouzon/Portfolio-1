@@ -1,3 +1,4 @@
+/* Allow to include the padding in the box sizes */
 * {
   box-sizing: border-box;
 }
@@ -13,6 +14,12 @@ h1 {font-size: 250%;}
 h2 {font-size: 175%;}
 h3 {font-size: 150%;}
 
+/* Change the syle of all links  */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /* Headers */
 .mainheader {
@@ -34,7 +41,6 @@ h3 {font-size: 150%;}
 
 .mainheader nav {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
@@ -43,10 +49,6 @@ h3 {font-size: 150%;}
   margin-left: 50px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
 /* /headers */
 
 /* AboutMe */
@@ -85,6 +87,7 @@ a {
 /* /About me */
 
 /* Projects */
+
 .projects{
   display: flex;
   flex-wrap: wrap;
@@ -106,7 +109,7 @@ a {
   margin-left: -20px;
 
 }
-
+/* Main Project */
 .Mainproject{
   flex-grow: 1;
 }
@@ -133,14 +136,16 @@ a {
   border-radius: 10px;
   opacity: 0.7;
 }
+
+/* Small projects */
 .smallprojects{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-min-width: 300px;
-max-width: 800px;
-margin: auto;
-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  color: #ffffff;
 }
 
 .smallproject{
@@ -171,6 +176,7 @@ color: #ffffff;
   border-radius: 10px;
 }
 
+/* Hidden Menus  */
 .hidden{
   display: none;
   font-size: 200%;
@@ -180,6 +186,7 @@ color: #ffffff;
   padding-right: 50px;
 }
 
+/* Hide the Project & Contact title and show a new one if width < 850px */
 @media screen and (max-width: 850px) {
   .hidden{
     display: block;
@@ -203,14 +210,15 @@ color: #ffffff;
 
 .contact header{
   position: absolute;
-  margin-left: -330px;
+  margin-left: -315px;
 }
 
+/* Vertical line next to Contact */
 .vl2 {
   border-left: 6px solid black;
   height: 100px;
   position: absolute;
-  margin-left: -195px;
+  margin-left: -180px;
 
 }
 
@@ -231,7 +239,7 @@ color: #ffffff;
 /* Footer */
 footer{
   position: absolute;
-  margin-top: 170px;
+  margin-top: 50px;
   text-align: center;
   background-color: black;
   padding: 10px;
