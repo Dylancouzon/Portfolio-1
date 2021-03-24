@@ -11,7 +11,7 @@ Homework due 2021-3-23
 
 ## Summary 
 This is my first Portfolio, it contains a description of myself, links to my previous projects and contact informations.
-The Website is using a reset.css file as well a Flexbox to be compatible for every web browsers and Flebox
+The Website is using a reset.css file as well Flexbox to be compatible for every web browsers and resolutions
 
 
 
